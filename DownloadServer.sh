@@ -11,7 +11,7 @@ sudo -- sh -c "chown root:root -R /opt/utorrent-server-alpha-v3_3/"
 sudo -- sh -c "ln -nfs /opt/utorrent-server-alpha-v3_3/utserver /usr/bin/utserver"
 #
 #Install the required libssl library via command:
-sudo -- sh -c "apt-get install libssl1.0.0 libssl-dev"
+sudo -- sh -c "apt-get -y install libssl1.0.0 libssl-dev"
 #
 #Finally start uTorrent server:
 utserver -settingspath /opt/utorrent-server-alpha-v3_3/ &
