@@ -3,7 +3,7 @@
 #This shellScript is for installing uTorrent for Download Server
 #Download utserver for 64-bit system:
 #
-wget http://download-new.utorrent.com/endpoint/utserver/os/linux-x64-ubuntu-13-04/track/beta/ -O utserver.tar.gz
+wget http://download.ap.bittorrent.com/track/beta/endpoint/utserver/os/linux-x64-ubuntu-13-04 -O utserver.tar.gz
 #
 #Install uTorrent sever to /opt/, and create symlink
 sudo -- sh -c "tar -zxvf utserver.tar.gz -C /opt/"
